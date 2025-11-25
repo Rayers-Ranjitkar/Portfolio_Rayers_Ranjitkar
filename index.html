@@ -1,58 +1,87 @@
 <!Doctype html>
 <html>
-	<head>
-		<title>Workshop 1</title>
-		<link href="style.css" rel="stylesheet">
-	</head>
 
-	<body>
-		<header>
+<head>
+    <title>Portfolio Site</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/2821/2821666.png">
+</head>
 
-			<div id="logo">Rayers Ranjitkar</div>
-			<nav>
-				<div id="navLinks">
-					<li><a href="">About</a></li>
-					<li><a href="">Projects</a></li>
-					<li><a href="">Contact</a></li> 
-				</div>
-			</nav>
-		</header>
+<body>
+    <header>
 
-		<section id="about">
-			<h2>About me</h2>
+        <div id="logo">Rayers Ranjitkar</div>
+        <nav>
+            <div id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </div>
+        </nav>
+    </header>
 
-			<p id="para1">Hi, I’m Rayers Ranjitkar, a dedicated Computer Science student with a growing passion for Artificial Intelligence, Machine Learning, Big Data, and front-end development. I love exploring how technology works behind the scenes—whether it’s the systems powering IoT devices, drones, automation, smart gadgets, or modern networks. Working with JavaScript and building real projects has strengthened my interest in creating clean, efficient, and meaningful digital experiences.</p>
+    <section id="about">
+        <h2>About me</h2>
 
-			<p id="para2">I’m deeply curious about intelligent systems and how data and algorithms can solve real-world problems. As I continue to develop my skills, I aim to move further into AI and ML, pursue advanced studies, and contribute to building innovative technologies that make life smarter and more efficient. Technology keeps evolving, and I’m excited to grow with it—learning, experimenting, and building along the way.</p>
-		</section>
+        <p id="para1">Hi, I’m Rayers Ranjitkar, a dedicated Computer Science student with a growing passion for
+            Artificial Intelligence, Machine Learning, Big Data, and front-end development. I love exploring how
+            technology works behind the scenes—whether it’s the systems powering IoT devices, drones, automation, smart
+            gadgets, or modern networks. Working with JavaScript and building real projects has strengthened my interest
+            in creating clean, efficient, and meaningful digital experiences.</p>
 
-		<section id="projects">
-			<h2>My Projects</h2>
+        <p id="para2">I’m deeply curious about intelligent systems and how data and algorithms can solve real-world
+            problems. As I continue to develop my skills, I aim to move further into AI and ML, pursue advanced studies,
+            and contribute to building innovative technologies that make life smarter and more efficient. Technology
+            keeps evolving, and I’m excited to grow with it—learning, experimenting, and building along the way.</p>
+    </section>
 
-			<div id="projectsDiv">
-				<div id="project1">
-					<img src="https://img.freepik.com/premium-photo/it-user-interface-ui-design-ai-generated_547674-4748.jpg" alt="project1">
+    <section id="projects">
+        <h2>My Projects</h2>
 
-				</div>
+        <div id="projectsDiv">
+            <div id="project1" class="project-card">
+                <img src="https://img.freepik.com/premium-photo/it-user-interface-ui-design-ai-generated_547674-4748.jpg"
+                    alt="A futuristic UI dashboard design with neon blue digital elements.">
+                <div class="project-desc">
+                    A futuristic UI dashboard concept showcasing glowing digital panels and immersive interface
+                    elements.
+                </div>
+            </div>
 
-				<div id="project2">
-					<img src="https://d3h2k7ug3o5pb3.cloudfront.net/image/2020-12-18/16371880-410a-11eb-b02b-db04520bd8e2.jpg" alt="project2">
+            <div id="project2" class="project-card">
+                <img src="https://d3h2k7ug3o5pb3.cloudfront.net/image/2020-12-18/16371880-410a-11eb-b02b-db04520bd8e2.jpg"
+                    alt="Developer writing code on a glowing screen in a modern workspace.">
+                <div class="project-desc">
+                    A clean coding workspace representing efficient software development and a focused programming
+                    environment.
+                </div>
+            </div>
+        </div>
 
-				</div>
-			</div>
+    </section>
 
-		</section>
 
-		<form>
+    <section id="contact">
+        <h2>Contact Me</h2>
 
-		</form>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name">
 
-		name
-		email
-		message
-		#textarea use gara for input box
+            <label for="email">Email</label>
+            <input type="email" id="email">
 
-		footer and copyright
+            <label for="message">Message</label>
+            <textarea id="message"></textarea>
 
-	</body>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy;</span>2025 Rayers Ranjitkar. All rights reserved.</p>
+    </footer>
+
+</body>
+
 </html>
